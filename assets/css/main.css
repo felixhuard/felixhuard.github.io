@@ -193,9 +193,9 @@ body,
 input,
 select,
 textarea {
-  color: #888;
+  color: #363636;
   font-family: "Lato", sans-serif;
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: 400;
   line-height: 1.75em;
 }
@@ -225,7 +225,7 @@ a:hover {
 
 strong,
 b {
-  color: #777;
+  color: #363636;
   font-weight: 700;
 }
 
@@ -244,7 +244,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: #000000;
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5625em 0;
@@ -1861,7 +1861,7 @@ article.special {
 }
 
 header p {
-  color: #aaa;
+  color: #525252;
   position: relative;
   margin: 0 0 1.6875em 0;
 }
@@ -1892,7 +1892,7 @@ header.major h2 {
 }
 
 header.major h2 + p {
-  color: #777;
+  color: #242424;
   font-size: 1.75em;
   font-weight: 700;
   margin-top: -0.75em;
@@ -2290,12 +2290,12 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar {
-  border-radius: 100%;
+  border-radius: 0%;
   overflow: hidden;
 }
 
 .image.avatar img {
-  border-radius: 100%;
+  border-radius: 0%;
   display: block;
   width: 100%;
 }
@@ -2734,14 +2734,14 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: #5ed0b1;
+  background-color: #12893f;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-  background-color: #39c29d;
+  background-color: #12893f;
 }
 
 input[type="submit"].disabled,
@@ -2861,7 +2861,7 @@ input[type="button"]:disabled,
 #header > header .avatar {
   display: block;
   margin: 0 auto 2.25em auto;
-  width: 8em;
+  width: 15em;
 }
 
 #header > header h1 {
@@ -2870,7 +2870,7 @@ input[type="button"]:disabled,
 }
 
 #header > header p {
-  color: #eadfd8;
+  color: rgb(255, 254, 254);
   font-style: italic;
   margin: 1em 0 0 0;
 }
@@ -2891,7 +2891,7 @@ input[type="button"]:disabled,
 }
 
 #header > footer .icons li a {
-  color: #5c4a3e;
+  color: #faf8f7;
 }
 
 #header > nav {
@@ -2908,7 +2908,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #937663;
+  border-top: solid 2px #fffefd;
   display: block;
   padding: 0;
 }
